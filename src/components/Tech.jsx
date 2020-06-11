@@ -5,18 +5,20 @@ export default () => {
         <div class="py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                    </div>
+                    <h2>SOME TECHNOLOGIES I'VE WORKED WITH: </h2>
+                    <br/>
+                    <h4>Frontend:</h4> <br/> 
+                    
+                    
+                    <h4>Backend:</h4> <br/> 
+                    
+                    
+                    <h4>Database:</h4> <br/> 
+                   
+
+                    <h4>Tools:</h4> <br/> 
+                    
+                    
                 </div>
             </div>
         </div>
