@@ -19,8 +19,9 @@ export default () => {
                         <div class="timeline-body"><p class="text-muted">In First Gymnasium in Sarajevo I made my first moves in programming.I learned basics of C, C++ and also HTML, CSS and JavaScript what makes me able to build my first website.</p></div>
                     </div>
                 </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+                <li class="timeline-inverted"> 
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+
                     <div class="timeline-panel">
                         <div class="timeline-heading">
                             <h4>2018-2019</h4>
