@@ -11,11 +11,28 @@ import PortfolioInfo from './components/PortfolioInfo';
 
 
 function App() {
+
+  const portfolioLinks = [
+    {
+      title: 'Tehnical inspection of vehicle',
+      caption: 'Full stack web app'
+    },
+    {
+      title: 'Tehnical inspection of vehicle',
+      caption: 'Full stack web app'
+    },
+    {
+      title: 'Tehnical inspection of vehicle',
+      caption: 'Full stack web app'
+    }
+  ]
+
+
   return (
     <div className="App">
         <Header></Header>
         <Services></Services>
-        <Portfolio></Portfolio>
+        <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
         <About></About>
         <Tech></Tech>
         <Contact></Contact>
