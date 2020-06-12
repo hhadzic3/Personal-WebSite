@@ -49,9 +49,6 @@ export default () => {
                     <div className="tech">
                         <a href="#!"><i className="fab fa-linux fa-5x"></i></a>
                     </div>
-                    <div className="tech">
-                        <a href="#!"><i className="fas fa-terminal fa-5x"></i></a>
-                    </div>
                 </div>
                 
             </div>

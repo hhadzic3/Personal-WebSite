@@ -1,4 +1,8 @@
 import React from 'react'
+import atlant from '../images/atlant.png'
+import first from '../images/first.png'
+import sa from '../images/sa.png'
+import uni from '../images/uni.jpg'
 
 export default () => {
     return(
@@ -10,7 +14,7 @@ export default () => {
             </div>
             <ul className="timeline">
                 <li>
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                    <div className="timeline-image"><img className="rounded-circle img-fluid" src={sa} alt="" /></div>
                     <div className="timeline-panel">
                         <div className="timeline-heading">
                             <h4>2014-2018</h4>
@@ -20,7 +24,7 @@ export default () => {
                     </div>
                 </li>
                 <li className="timeline-inverted"> 
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                    <div className="timeline-image"><img className="rounded-circle img-fluid" src={uni} alt="" /></div>
 
                     <div className="timeline-panel">
                         <div className="timeline-heading">
@@ -31,7 +35,7 @@ export default () => {
                     </div>
                 </li>
                 <li>
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                    <div className="timeline-image"><img className="rounded-circle img-fluid" src={first} alt="" /></div>
                     <div className="timeline-panel">
                         <div className="timeline-heading">
                             <h4>2019-2020</h4>
@@ -41,7 +45,7 @@ export default () => {
                     </div>
                 </li>
                 <li className="timeline-inverted">
-                    <div className="timeline-image"><img className="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                    <div className="timeline-image"><img className="rounded-circle img-fluid" src={atlant} alt="" /></div>
                     <div className="timeline-panel">
                         <div className="timeline-heading">
                             <h4>Second half of 2020</h4>
