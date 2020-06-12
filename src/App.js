@@ -17,8 +17,8 @@ function App() {
 
   const portfolioLinks = [
     {
-      title: 'Tehnical inspection of vehicle',
-      caption: 'Full stack web app (NodeJS, MySQL and Angular)',
+      title: 'Tehnical inspection of vehicle - Web app',
+      caption: 'NodeJS, MySQL and Angular',
       img: img1
     },
     {
