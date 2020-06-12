@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/HH icon.jpg'
+import logo from '../images/HH icon.png'
 
 export default () => {
     return(
@@ -21,7 +21,7 @@ export default () => {
         <header className="masthead">
             <div className="container">
                 <div className="masthead-subheading">Hi, my name is Harun Hadžić.</div>
-                <div className="masthead-heading ">Front end Software Engineer</div>
+                <div className="masthead-heading ">Software Engineer</div>
                 <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
             </div>
         </header>

@@ -8,22 +8,33 @@ import Services from './components/Services';
 import Header from './components/Header';
 import Tech from './components/Tech';
 import PortfolioInfo from './components/PortfolioInfo';
-
+import img1 from './images/app1.PNG'
+import img2 from './images/app2.PNG'
+import img3 from './images/app3.PNG'
+import img4 from './images/app4.png'
 
 function App() {
 
   const portfolioLinks = [
     {
       title: 'Tehnical inspection of vehicle',
-      caption: 'Full stack web app'
+      caption: 'Full stack web app (NodeJS, MySQL and Angular)',
+      img: img1
     },
     {
-      title: 'Tehnical inspection of vehicle',
-      caption: 'Full stack web app'
+      title: 'E-commerce website',
+      caption: 'HTML, CSS and Vanilla JS',
+      img: img2
     },
     {
-      title: 'Tehnical inspection of vehicle',
-      caption: 'Full stack web app'
+      title: 'Portfolio website',
+      caption: 'HTML, CSS and React.js',
+      img: img3
+    },
+    {
+      title: 'Desktop app-Movie library',
+      caption: 'JavaFX',
+      img: img4
     }
   ]
 
