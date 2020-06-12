@@ -20,7 +20,7 @@ export default () => {
                             <h4>2014-2018</h4>
                             <h4 className="subheading">My Beginnings</h4>
                         </div>
-                        <div className="timeline-body"><p className="text-muted">In First Gymnasium in Sarajevo I made my first moves in programming.I learned basics of C, C++ and also HTML, CSS and JavaScript what makes me able to build my first website.</p></div>
+                        <div className="timeline-body"><p className="text-muted">I started my first programming steps at the First Gymnasium in Sarajevo. In the beginning it was C and C ++ (which I later studied a lot more in college), after that I started learning HTML, CSS and JavaScript.</p></div>
                     </div>
                 </li>
                 <li className="timeline-inverted"> 
@@ -31,7 +31,7 @@ export default () => {
                             <h4>2018-2019</h4>
                             <h4 className="subheading">Bigger steps in development</h4>
                         </div>
-                        <div className="timeline-body"><p className="text-muted">I started my stydes on Faculsy of Electrical Engeniring in Sarajevo.I learned samoe backend useed laguages like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line , Chrome DevTools and Postman. </p></div>
+                        <div className="timeline-body"><p className="text-muted">I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line , Chrome DevTools and Postman. </p></div>
                     </div>
                 </li>
                 <li>
@@ -39,9 +39,9 @@ export default () => {
                     <div className="timeline-panel">
                         <div className="timeline-heading">
                             <h4>2019-2020</h4>
-                            <h4 className="subheading">Onderstunding Real World of Apps</h4>
+                            <h4 className="subheading">Understanding Real World of Apps</h4>
                         </div>
-                        <div className="timeline-body"><p className="text-muted">I learned Angular, React, Deployment apps, connecting Frontend and Backend.</p></div>
+                        <div className="timeline-body"><p className="text-muted">I learned Angular and React, what makes my better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.</p></div>
                     </div>
                 </li>
                 <li className="timeline-inverted">
@@ -51,7 +51,7 @@ export default () => {
                             <h4>Second half of 2020</h4>
                             <h4 className="subheading">First Job</h4>
                         </div>
-                        <div className="timeline-body"><p className="text-muted">AtlantBH</p></div>
+                        <div className="timeline-body"><p className="text-muted">I had exelent oppertunity to work in one of the best software companies in Sarajevo <a href="https://www.atlantbh.com/">Atlantbh</a>.</p></div>
                     </div>
                 </li>
                 <li className="timeline-inverted">

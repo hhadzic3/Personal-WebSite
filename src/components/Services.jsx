@@ -22,7 +22,7 @@ export default () => {
                     <div className="col-md-4">
                         <span className="fa-stack fa-4x"><i className="fas fa-circle fa-stack-2x text-primary"></i><i className="fas fa-lightbulb fa-stack-1x fa-inverse"></i></span>
                         <h4 className="my-3">Involvment</h4>
-                        <p className="text-muted">I've been involved with basketball and I also like ski, footbal and movies in free time.</p>
+                        <p className="text-muted">As for extracurricular activities, I like basketball, which I trained for 8 years. I also like skiing, football and going out with friends.</p>
                     </div>
                 </div>
             </div>
