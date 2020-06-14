@@ -30,7 +30,7 @@ export default () => {
                 </div>
                 <div className="text-center">
                     <div id="success"></div>
-                    <button className="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                    <button className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                 </div>
             </form>
         </div>
