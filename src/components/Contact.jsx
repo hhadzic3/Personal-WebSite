@@ -8,7 +8,7 @@ export default () => {
                 <h2 className="section-heading text-uppercase">GET IN TOUCH!</h2>
                 <h3 className="section-subheading text-muted"></h3>
             </div>
-            <form id="contactForm" name="sentMessage" noValidate="novalidate" name="contact" method="POST" data-netlify="true">
+            <form id="contactForm" name="sentMessage" noValidate="novalidate" method="POST" netlify>
                 <div className="row align-items-stretch mb-5">
                     <div className="col-md-6">
                         <div className="form-group">
