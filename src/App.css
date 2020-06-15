@@ -10504,3 +10504,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .py-5 .container{
   text-align: center;
 }
+
+#portfolioModal1 button{
+  margin: 10px;
+}
