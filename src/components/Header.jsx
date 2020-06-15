@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import pdf from '../pdf/Resume - HH.pdf';
 
 export default () => {
     return(
@@ -12,6 +13,7 @@ export default () => {
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li className="nav-item"><a className="btn btn-primary nav-link js-scroll-trigger" href={pdf} target = "_blank">Resume</a></li>
                     </ul>
                 </div>
             </div>

@@ -10,7 +10,9 @@ export default () => {
         <div className="container">
             <div className="text-center">
                 <h2 className="section-heading text-uppercase">About</h2>
-                <h3 className="section-subheading text-muted">I'm a software engineer based in Sarajevo, BiH specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.</h3>
+                <h3 className="section-subheading text-muted">I am a software engineer based in the capital of Bosnia and Herzegovina,
+called Sarajevo. Specializing in building (and occasionally designing)
+exceptional websites, applications, and everything in between.</h3>
             </div>
             <ul className="timeline">
                 <li>
@@ -31,7 +33,7 @@ export default () => {
                             <h4>2018-2019</h4>
                             <h4 className="subheading">Bigger steps in development</h4>
                         </div>
-                        <div className="timeline-body"><p className="text-muted">I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line , Chrome DevTools and Postman. </p></div>
+                        <div className="timeline-body"><p className="text-muted">I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line, Chrome DevTools and Postman. </p></div>
                     </div>
                 </li>
                 <li>
@@ -62,6 +64,5 @@ export default () => {
             </ul>
         </div>
     </section>
-
     )
 }
