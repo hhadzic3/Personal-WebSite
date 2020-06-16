@@ -1,6 +1,4 @@
 import React from 'react'
-import PortfolioInfo from './PortfolioInfo'
-import Button from '@material-ui/core/Button';
 
 export default function Portfolio({ portfolioLinks }) {
 
@@ -12,7 +10,7 @@ export default function Portfolio({ portfolioLinks }) {
                   <h3 className="section-subheading text-muted">I've been doing development for just about 3 years now, and I'm always eager to learn more in this fast paced industry.</h3>
               </div>
               <div className="row">
-                  {portfolioLinks && portfolioLinks.map(( {title , caption , img} , i) => 
+                  {portfolioLinks && portfolioLinks.map(( {title , caption , img, github, demo} , i) => 
                       <div className="col-lg-4 col-sm-6 mb-4" key={title}>
                           <div className="portfolio-item">
                               <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1" >
@@ -26,8 +24,12 @@ export default function Portfolio({ portfolioLinks }) {
                               <div className="portfolio-caption">
                                     <div className="portfolio-caption-heading">{ title } </div>
                                     <div className="portfolio-caption-subheading text-muted"> {caption} </div>
-                                    <button className="btn btn-secondary" data-dismiss="modal" type="button"><i className="fab fa-github"></i> View Code</button>
-                                    <button className="btn btn-primary" data-dismiss="modal" type="button"><i className="fas fa-external-link-alt"></i> View Demo</button>
+                                    <a href={github} rel="noopener noreferrer" target = "_blank">
+                                        <button className="btn btn-secondary" data-dismiss="modal" type="button">  <i className="fab fa-github"></i> View Code</button>
+                                    </a>
+                                    <a href={demo} rel="noopener noreferrer" target = "_blank">
+                                        <button className="btn btn-primary" data-dismiss="modal" type="button">  <i className="fas fa-external-link-alt"></i> View Demo</button>
+                                    </a>
                               </div>
                           </div>
                       </div>

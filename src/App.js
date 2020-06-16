@@ -29,8 +29,8 @@ function App() {
       title: 'Classroom reservation by faculty staff',
       caption: 'NodeJS (sequelize) with MySQL',
       img: img5,
-      github: '',
-      demo: '',
+      github: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
+      demo: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
       description: 'Web app that provides easy reservation of classrooms on Faculty.'
     },
     {
@@ -45,16 +45,16 @@ function App() {
       title: 'E-commerce website',
       caption: 'HTML, CSS and Vanilla JS',
       img: img2,
-      github: '',
-      demo: '',
+      github: 'https://bitbucket.org/hhadzic3/interakcija-projekat/src/master/',
+      demo: 'https://vedadbukva.github.io/',
       description: 'Website that makes order office materials easier.'
     },
     {
       title: 'Portfolio website',
       caption: 'HTML, CSS and React.js',
       img: img3,
-      github: '',
-      demo: '',
+      github: 'https://github.com/hhadzic3/portfolio-website',
+      demo: 'https://amina-karup.netlify.app/',
       description: 'Portfolio website for psyhologist.'
     }
   ]

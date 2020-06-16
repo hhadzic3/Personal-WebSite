@@ -5,8 +5,7 @@ export default () => {
         <section className="page-section" id="contact">
             <div className="container">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">GET IN TOUCH!</h2>
-                    <h3 className="section-subheading text-muted"></h3>
+                    <h2 className="section-heading text-uppercase">Let's get in touch!</h2>
                 </div>
                 <form name="contact" method="post" id="contactForm">
 
