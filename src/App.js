@@ -21,31 +21,41 @@ function App() {
       title: 'Tehnical inspection of vehicle - Web app',
       caption: 'NodeJS, MySQL and Angular',
       img: img1,
+      github: 'https://github.com/hhadzic3/WebFrontend',
+      demo: 'https://vehicle-inspection-center-ada.herokuapp.com/home',
       description: 'This app provides opportunity for managers and mechanic of vehicle inspection company Ada to make their bussines easier. Also customers can see basic info about Ada and make reservation of technical review by calling or sending email.'
+    },
+    {
+      title: 'Classroom reservation by faculty staff',
+      caption: 'NodeJS (sequelize) with MySQL',
+      img: img5,
+      github: '',
+      demo: '',
+      description: 'Web app that provides easy reservation of classrooms on Faculty.'
+    },
+    {
+      title: 'Desktop app-Movie library',
+      caption: 'JavaFX with Sqlite database',
+      img: img4,
+      github: 'https://github.com/hhadzic3/rs-projekat',
+      demo: 'https://github.com/hhadzic3/rs-projekat',
+      description: 'Desktop app that can be used in traditional video library.'
     },
     {
       title: 'E-commerce website',
       caption: 'HTML, CSS and Vanilla JS',
       img: img2,
+      github: '',
+      demo: '',
       description: 'Website that makes order office materials easier.'
     },
     {
       title: 'Portfolio website',
       caption: 'HTML, CSS and React.js',
       img: img3,
+      github: '',
+      demo: '',
       description: 'Portfolio website for psyhologist.'
-    },
-    {
-      title: 'Desktop app-Movie library',
-      caption: 'JavaFX with Sqlite database',
-      img: img4,
-      description: 'Desktop app that can be used in traditional video library.'
-    },
-    {
-      title: 'Classroom reservation by faculty staff',
-      caption: 'NodeJS (sequelize) with MySQL',
-      img: img5,
-      description: 'Web app that provides easy reservation of classrooms on Faculty.'
     }
   ]
 
@@ -59,8 +69,8 @@ function App() {
         <Tech></Tech>
         <Contact></Contact>
         <Footer></Footer>
-        
         <PortfolioInfo></PortfolioInfo>
+        
     </div>
   );
 }

@@ -10508,3 +10508,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 #portfolioModal1 button{
   margin: 10px;
 }
+.portfolio-caption button{
+  margin: 10px;
+}
+.footer .btn-social:hover{
+  background-color: rgb(94, 145, 255);
+}
