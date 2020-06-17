@@ -6,11 +6,9 @@ export default () => {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Services</h2>
-                    <h3 className="section-subheading text-muted">Hey! My name is Harun and I&#39;m a web developer with a passion for front
-end development and design. I am currently a third year student at Faculty of
-Electrical Engeniring pursuing a degree in information science with a minor
-in interaction design. I aspire toward a career that will allow me to pursue
-my creativity through crafting nice software and engaging experiences.</h3>
+                    <h3 className="section-subheading text-muted">Hey! My name is Harun and I'm a software developer with a passion for design. I am currently a third year student at Faculty of
+Electrical Engeniring pursuing a degree in computer science. I aspire toward a career that will allow me to pursue
+my creativity through crafting nice software with best frontend and backend as possible.</h3>
                 </div>
                 <div className="row text-center">
                     <div className="col-md-4">

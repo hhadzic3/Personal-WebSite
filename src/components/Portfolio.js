@@ -13,7 +13,7 @@ export default function Portfolio({ portfolioLinks }) {
                   {portfolioLinks && portfolioLinks.map(( {title , caption , img, github, demo} , i) => 
                       <div className="col-lg-4 col-sm-6 mb-4" key={title}>
                           <div className="portfolio-item">
-                              <a className="portfolio-link" data-toggle="modal" href="#portfolioModal1" >
+                              <a className="portfolio-link" rel="noopener noreferrer" target = "_blank"  href={github} >
                                   <div className="portfolio-hover">
                                       <div className="portfolio-hover-content">
                                           <i className="fas fa-plus fa-3x"></i>
@@ -27,9 +27,12 @@ export default function Portfolio({ portfolioLinks }) {
                                     <a href={github} rel="noopener noreferrer" target = "_blank">
                                         <button className="btn btn-secondary" data-dismiss="modal" type="button">  <i className="fab fa-github"></i> View Code</button>
                                     </a>
-                                    <a href={demo} rel="noopener noreferrer" target = "_blank">
-                                        <button className="btn btn-primary" data-dismiss="modal" type="button">  <i className="fas fa-external-link-alt"></i> View Demo</button>
-                                    </a>
+                                    { github !== demo ? (
+                                        <a href={demo} rel="noopener noreferrer" target = "_blank">
+                                            <button className="btn btn-primary" data-dismiss="modal" type="button">  <i className="fas fa-external-link-alt"></i> View Demo</button>
+                                        </a>
+                                    ) : (<p> </p>)
+                                    }
                               </div>
                           </div>
                       </div>
