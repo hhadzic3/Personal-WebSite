@@ -14,6 +14,12 @@ import img3 from './images/app3.PNG'
 import img4 from './images/app4.png'
 import img5 from './images/app5.PNG'
 
+
+import atlant from './images/atlant.png'
+import first from './images/first.png'
+import sa from './images/sa.png'
+import uni from './images/uni.jpg'
+
 function App() {
 
   const portfolioLinks = [
@@ -59,18 +65,43 @@ function App() {
     }
   ]
 
+  const history = [
+    {
+      title: '2014-2018',
+      subtitle: 'My Beginnings',
+      img: sa,
+      description: 'I started my first programming steps at the First Gymnasium in Sarajevo. In the beginning it was C and C ++ (which I later studied a lot more in college), after that I started learning HTML, CSS and JavaScript.'
+    },
+    {
+      title: '2018-2019',
+      subtitle: 'Bigger steps in development',
+      img: uni,
+      description: 'I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line, Chrome DevTools and Postman.'
+    },
+    {
+      title: '2019-2020',
+      subtitle: 'Understanding Real World of Apps',
+      img: first,
+      description: 'I learned Angular and React, what makes my better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.'
+    },
+    {
+      title: 'July-October 2020',
+      subtitle: 'First Job',
+      img: atlant,
+      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo <a href="https://www.atlantbh.com/">Atlantbh</a>.'
+    }
+  ]
 
   return (
     <div className="App">
         <Header></Header>
         <Services></Services>
         <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
-        <About></About>
+        <About history={history}></About>
         <Tech></Tech>
         <Contact></Contact>
         <Footer></Footer>
         <PortfolioInfo></PortfolioInfo>
-        
     </div>
   );
 }
