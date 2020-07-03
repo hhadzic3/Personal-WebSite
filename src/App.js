@@ -20,6 +20,7 @@ import first from './images/first.png'
 import sa from './images/sa.png'
 import uni from './images/uni.jpg'
 
+import { Helmet } from "react-helmet";
 function App() {
 
   const portfolioLinks = [
@@ -94,6 +95,17 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title> Harun Hadzic | Software Engineer </title>
+        <meta name="description" content="testing react helmet" />
+        <meta name="keywords" content="react,seo,helmet" />
+        <meta charset="UTF-8" />
+        <link rel="icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Software engineer Harun Hadzic.|Frontend and Backend (Full stack) developer." />
+        <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
+        <meta name="author" content="Harun Hadzic" />
+      </Helmet>
         <Header></Header>
         <Services></Services>
         <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
