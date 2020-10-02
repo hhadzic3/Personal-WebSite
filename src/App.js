@@ -18,12 +18,14 @@ import img5 from './images/app5.PNG'
 import atlant from './images/atlant.png'
 import first from './images/first.png'
 import sa from './images/sa.png'
+import shop from './images/shop.png'
 import uni from './images/uni.jpg'
 
 import { Helmet } from "react-helmet";
 function App() {
 
   const portfolioLinks = [
+    
     {
       title: 'Tehnical inspection of vehicle - Web app',
       caption: 'NodeJS, MySQL and Angular',
@@ -55,6 +57,14 @@ function App() {
       github: 'https://bitbucket.org/hhadzic3/interakcija-projekat/src/master/',
       demo: 'https://vedadbukva.github.io/',
       description: 'Website that makes order office materials easier.'
+    },
+    {
+      title: 'Online shop - Web app',
+      caption: 'React, Sass, Material UI | NodeJS, Express and Sequelize with PostgreSQL',
+      img: shop,
+      github: 'https://github.com/hhadzic3/online-shop-frontend',
+      demo: 'https://github.com/hhadzic3/online-shop-frontend',
+      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
     },
     {
       title: 'Portfolio website',
@@ -89,7 +99,7 @@ function App() {
       title: 'July-October 2020',
       subtitle: 'First Job',
       img: atlant,
-      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo <a href="https://www.atlantbh.com/">Atlantbh</a>.'
+      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
     }
   ]
 

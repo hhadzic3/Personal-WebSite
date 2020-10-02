@@ -13,7 +13,7 @@ export default ({history}) => {
             </div>
             <ul className="timeline">
             { history && history.map(( {title , subtitle , description,img} , i) => 
-                ( i !== history.length-1 ? 
+                ( i !== history.length ? 
                     (
                         (
                             i % 2 === 0 ?
