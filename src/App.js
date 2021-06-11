@@ -117,9 +117,9 @@ function App() {
         <meta name="author" content="Harun Hadzic" />
       </Helmet>
         <Header></Header>
-        <Services></Services>
-        <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
         <About history={history}></About>
+        <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
+        <Services></Services>
         <Tech></Tech>
         <Contact></Contact>
         <Footer></Footer>
