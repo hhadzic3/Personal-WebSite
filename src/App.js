@@ -28,11 +28,27 @@ function App() {
     
     {
       title: 'Tehnical inspection of vehicle - Web app',
-      caption: 'NodeJS, MySQL and Angular',
+      caption: 'This app provides an opportunity for easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
       img: img1,
       github: 'https://github.com/hhadzic3/WebFrontend',
       demo: 'https://vehicle-inspection-center-ada.herokuapp.com/home',
       description: 'This app provides opportunity for managers and mechanic of vehicle inspection company Ada to make their bussines easier. Also customers can see basic info about Ada and make reservation of technical review by calling or sending email.'
+    },
+    {
+      title: 'Online shop - Web app',
+      caption: 'React, Sass, Material UI | NodeJS, Express and Sequelize with PostgreSQL',
+      img: shop,
+      github: 'https://github.com/hhadzic3/online-shop-frontend',
+      demo: 'https://github.com/hhadzic3/online-shop-frontend',
+      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
+    },
+    {
+      title: 'Best Health Strategies',
+      caption: 'Web app that allows you to easily and intuitively create plans and adapt your diet to the needs of each individual. Technologies: ASP.NET (C#), MySQL | HTML, CSS (Bootstrap)',
+      img: img3,
+      github: 'https://github.com/ooad-2020-2021/Grupa3-BestHealthStrategies',
+      demo: 'https://www.youtube.com/watch?v=9zF-25usazY',
+      description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is a software or web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
     },
     {
       title: 'Classroom reservation by faculty staff',
@@ -57,22 +73,6 @@ function App() {
       github: 'https://bitbucket.org/hhadzic3/interakcija-projekat/src/master/',
       demo: 'https://vedadbukva.github.io/',
       description: 'Website that makes order office materials easier.'
-    },
-    {
-      title: 'Online shop - Web app',
-      caption: 'React, Sass, Material UI | NodeJS, Express and Sequelize with PostgreSQL',
-      img: shop,
-      github: 'https://github.com/hhadzic3/online-shop-frontend',
-      demo: 'https://github.com/hhadzic3/online-shop-frontend',
-      description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
-    },
-    {
-      title: 'Portfolio website',
-      caption: 'HTML, CSS and React.js',
-      img: img3,
-      github: 'https://github.com/hhadzic3/portfolio-website',
-      demo: 'https://amina-karup.netlify.app/',
-      description: 'Portfolio website for psyhologist.'
     }
   ]
 

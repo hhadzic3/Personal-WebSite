@@ -16,7 +16,7 @@ export default function Portfolio({ portfolioLinks }) {
                               <a className="portfolio-link" rel="noopener noreferrer" target = "_blank"  href={github} >
                                   <div className="portfolio-hover">
                                       <div className="portfolio-hover-content">
-                                          <i className="fas fa-plus fa-3x"></i>
+                                          <i className="fas fa-code fa-3x"></i>
                                       </div>
                                   </div>
                                   <img className="img-fluid" src={img} alt=""/>

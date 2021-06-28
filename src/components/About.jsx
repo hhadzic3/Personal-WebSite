@@ -30,26 +30,26 @@ export default ({history}) => {
                     ) :
                     (
                         <>
-                    <li key={title} className="timeline-inverted">
-                        <div className="timeline-image">
-                            <img className="rounded-circle img-fluid" src={img} alt="" />
-                        </div>
-                        <div className="timeline-panel">
-                            <div className="timeline-heading">
-                                <h4>{title}</h4>
-                                <h4 className="subheading"> {subtitle} </h4>
-                            </div>
-                            <div className="timeline-body"><p className="text-muted">{description}</p></div>
-                        </div>
-                    </li>
-                    { i === history.length-1 &&
                         <li key={title} className="timeline-inverted">
                             <div className="timeline-image">
-                                <h4>Be Part<br />Of My/Our<br />Story!</h4>
+                                <img className="rounded-circle img-fluid" src={img} alt="" />
+                            </div>
+                            <div className="timeline-panel">
+                                <div className="timeline-heading">
+                                    <h4>{title}</h4>
+                                    <h4 className="subheading"> {subtitle} </h4>
+                                </div>
+                                <div className="timeline-body"><p className="text-muted">{description}</p></div>
                             </div>
                         </li>
-                    }
-                    </>
+                        { i === history.length-1 &&
+                            <li key={title} className="timeline-inverted">
+                                <div className="timeline-image">
+                                    <h4>Be Part<br />Of My/Our<br />Story!</h4>
+                                </div>
+                            </li>
+                        }
+                        </>
                     )
                 )
                         
