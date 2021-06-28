@@ -10,7 +10,7 @@ import Tech from './components/Tech';
 import PortfolioInfo from './components/PortfolioInfo';
 import img1 from './images/app1.PNG'
 import img2 from './images/app2.PNG'
-import img3 from './images/app33.PNG'
+import img3 from './images/app33.jpg'
 import img4 from './images/app4.png'
 import img5 from './images/app5.PNG'
 
