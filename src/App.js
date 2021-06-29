@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import About from './components/About';
 import Services from './components/Services';
-import Header from './components/Header';
+import Header from './components/Header.js';
 import Tech from './components/Tech';
 import PortfolioInfo from './components/PortfolioInfo';
 import img1 from './images/app1.PNG'
@@ -68,7 +68,7 @@ function App() {
     },
     {
       title: 'Artificial Intelligence',
-      caption: 'Introduction projects from AI.',
+      caption: 'Introduction projects to Artificial intelligence (Neural networks and Expert systems)',
       img: img2,
       github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
       demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
@@ -116,7 +116,7 @@ function App() {
         <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
         <meta name="author" content="Harun Hadzic" />
       </Helmet>
-        <Header></Header>
+        <Header ></Header>
         <About history={history}></About>
         <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
         <Services></Services>
