@@ -9,7 +9,7 @@ import Header from './components/Header';
 import Tech from './components/Tech';
 import PortfolioInfo from './components/PortfolioInfo';
 import img1 from './images/app1.PNG'
-import img2 from './images/app2.PNG'
+import img2 from './images/AI1.jpg'
 import img3 from './images/app33.jpg'
 import img4 from './images/app4.png'
 import img5 from './images/app5.PNG'
@@ -67,12 +67,12 @@ function App() {
       description: 'Desktop app that can be used in traditional video library.'
     },
     {
-      title: 'E-commerce website',
-      caption: 'HTML, CSS and Vanilla JS',
+      title: 'Artificial Inteligence',
+      caption: 'Python, Pandas, NumPy, Keras ...',
       img: img2,
-      github: 'https://bitbucket.org/hhadzic3/interakcija-projekat/src/master/',
-      demo: 'https://vedadbukva.github.io/',
-      description: 'Website that makes order office materials easier.'
+      github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
+      demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
+      description: 'Artificial Inteligence.'
     }
   ]
 
