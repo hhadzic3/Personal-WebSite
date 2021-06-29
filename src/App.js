@@ -67,12 +67,12 @@ function App() {
       description: 'Desktop app that can be used in traditional video library.'
     },
     {
-      title: 'Artificial Inteligence',
-      caption: 'Python, Pandas, NumPy, Keras ...',
+      title: 'Artificial Intelligence',
+      caption: 'Introduction projects from AI.',
       img: img2,
       github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
       demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
-      description: 'Artificial Inteligence.'
+      description: 'Artificial Intelligence.'
     }
   ]
 
@@ -106,7 +106,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title> Harun Hadzic | Software Engineer </title>
+        <title>Harun Hadzic | Software Engineer</title>
         <meta name="description" content="testing react helmet" />
         <meta name="keywords" content="react,seo,helmet" />
         <meta charset="UTF-8" />
