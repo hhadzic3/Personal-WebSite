@@ -7361,7 +7361,7 @@ button.bg-dark:focus {
 }
 
 .fixed-top {
-  position: fixed;
+  /*position: fixed;*/
   top: 0;
   right: 0;
   left: 0;
@@ -10061,7 +10061,7 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: var(--dark);
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10097,7 +10097,6 @@ img::-moz-selection {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     border: none;
-    opacity: 0.7;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
