@@ -21,7 +21,7 @@ import shop from './images/shop.png'
 import uni from './images/uni.jpg'
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { BatteryLoading,LoopCircleLoading } from 'react-loadingg';
+import { LoopCircleLoading } from 'react-loadingg';
 
 function App() {
 
@@ -105,15 +105,14 @@ function App() {
 
   const [isLoading, setLoading] = useState(true);
 
-  function fakeRequest() {
-    return new Promise(resolve => setTimeout(() => resolve(), 3000));
-  }
-
   useEffect(() => {
-    fakeRequest().then(() => {
-        setLoading(!isLoading);
-    });
-  }, []);
+    setTimeout(() => {
+      fetch("https://jsonplaceholder.typicode.com/posts")
+        .then(() => {
+          setLoading(false);
+        });
+    }, 2000);
+  },[]);
 
   return (
     <>
