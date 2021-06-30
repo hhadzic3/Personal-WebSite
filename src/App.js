@@ -21,7 +21,7 @@ import shop from './images/shop.png'
 import uni from './images/uni.jpg'
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
-import { LoopCircleLoading } from 'react-loadingg';
+import { BoxLoading } from 'react-loadingg';
 
 function App() {
 
@@ -107,22 +107,16 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("harun")
+      fetch("https://jsonplaceholder.typicode.com/posts")
         .then(() => {
           setLoading(false);
         });
-    }, 2000);
+    }, 2500);
   },[]);
 
   return (
     <>
-    {
-      isLoading ? (
-        <LoopCircleLoading size='large' color='#6f42c1' />
-      ) :
-      (
-        <HelmetProvider>
-        <div className="App">
+    <HelmetProvider>
           <Helmet>
             <title>Harun Hadzic | Software Engineer</title>
             <meta name="description" content="testing react helmet" />
@@ -134,6 +128,12 @@ function App() {
             <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
             <meta name="author" content="Harun Hadzic" />
           </Helmet>
+    {
+      isLoading ? (
+        <BoxLoading size='large' color='#6f42c1' />
+      ) :
+      (    
+        <div className="App">
             <Header ></Header>
             <About history={history}></About>
             <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
@@ -142,10 +142,10 @@ function App() {
             <Contact></Contact>
             <Footer></Footer>
             <PortfolioInfo></PortfolioInfo>
-        </div>
-        </HelmetProvider>
-      )
-    }
+          </div>
+        )
+      }
+      </HelmetProvider>
     </>
   );
 }
