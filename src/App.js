@@ -107,7 +107,7 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("https://jsonplaceholder.typicode.com/posts")
+      fetch("harun")
         .then(() => {
           setLoading(false);
         });
