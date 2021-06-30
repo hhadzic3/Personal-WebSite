@@ -27,7 +27,7 @@ export default function Header() {
             <div className="container">
                 <div className="masthead-subheading">Hi, my name is Harun Hadžić</div>
                 <div className="masthead-heading ">Software engineer</div>
-                <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+                <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Tell Me More</a>
             </div>
         </header>
     </div>

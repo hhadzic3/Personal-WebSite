@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 export default ({history}) => {
     return(
         <section className="page-section" id="about">
@@ -14,22 +13,22 @@ export default ({history}) => {
             <ul className="timeline">
             { history && history.map(( {title , subtitle , description,img} , i) =>            
                 ( i % 2 === 0 ?
-                    (
-                    <li key={title}>
-                        <div className="timeline-image">
-                            <img className="rounded-circle img-fluid" src={img} alt="" />
-                        </div>
-                        <div className="timeline-panel">
-                            <div className="timeline-heading">
-                                <h4>{title}</h4>
-                                <h4 className="subheading"> {subtitle} </h4>
+                    ( 
+                        <li key={title}>
+                            <div className="timeline-image">
+                                <img className="rounded-circle img-fluid" src={img} alt="" />
                             </div>
-                            <div className="timeline-body"><p className="text-muted">{description}</p></div>
-                        </div>
-                    </li>
+                            <div className="timeline-panel">
+                                <div className="timeline-heading">
+                                    <h4>{title}</h4>
+                                    <h4 className="subheading"> {subtitle} </h4>
+                                </div>
+                                <div className="timeline-body"><p className="text-muted">{description}</p></div>
+                            </div>
+                        </li>
                     ) :
                     (
-                        <>
+                        <React.Fragment key={title+i}>
                         <li key={title} className="timeline-inverted">
                             <div className="timeline-image">
                                 <img className="rounded-circle img-fluid" src={img} alt="" />
@@ -43,13 +42,13 @@ export default ({history}) => {
                             </div>
                         </li>
                         { i === history.length-1 &&
-                            <li key={title} className="timeline-inverted">
+                            <li key={i} className="timeline-inverted">
                                 <div className="timeline-image">
                                     <h4>Be Part<br />Of My/Our<br />Story!</h4>
                                 </div>
                             </li>
                         }
-                        </>
+                        </React.Fragment>
                     )
                 )
                         

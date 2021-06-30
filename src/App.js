@@ -14,18 +14,17 @@ import img3 from './images/app33.jpg'
 import img4 from './images/app4.png'
 import img5 from './images/app5.PNG'
 
-
 import atlant from './images/atlant.png'
 import first from './images/first.png'
 import sa from './images/sa.png'
 import shop from './images/shop.png'
 import uni from './images/uni.jpg'
 
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 function App() {
 
   const portfolioLinks = [
-    
     {
       title: 'Tehnical inspection of vehicle - Web app',
       caption: 'This app provides an opportunity for easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
@@ -68,7 +67,7 @@ function App() {
     },
     {
       title: 'Artificial Intelligence',
-      caption: 'Introduction projects to Artificial intelligence (Neural networks and Expert systems)',
+      caption: 'Introduction projects of Artificial intelligence (Neural networks and Expert systems)',
       img: img2,
       github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
       demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
@@ -79,31 +78,32 @@ function App() {
   const history = [
     {
       title: '2014-2018',
-      subtitle: 'My Beginnings',
+      subtitle: 'First Gymnasium in Sarajevo',
       img: sa,
       description: 'I started my first programming steps at the First Gymnasium in Sarajevo. In the beginning it was C and C ++ (which I later studied a lot more in college), after that I started learning HTML, CSS and JavaScript.'
     },
     {
-      title: '2018-2019',
-      subtitle: 'Bigger steps in development',
+      title: '2018-2022',
+      subtitle: 'University Sarajevo',
       img: uni,
       description: 'I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line, Chrome DevTools and Postman.'
     },
     {
-      title: '2019-2020',
+      title: '2019',
       subtitle: 'Understanding Real World of Apps',
       img: first,
       description: 'I learned Angular and React, what makes my better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.'
     },
     {
       title: 'July-October 2020',
-      subtitle: 'First Job',
+      subtitle: 'First Internship',
       img: atlant,
       description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
     }
   ]
 
   return (
+    <HelmetProvider>
     <div className="App">
       <Helmet>
         <title>Harun Hadzic | Software Engineer</title>
@@ -125,6 +125,7 @@ function App() {
         <Footer></Footer>
         <PortfolioInfo></PortfolioInfo>
     </div>
+    </HelmetProvider>
   );
 }
 
