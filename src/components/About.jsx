@@ -14,7 +14,7 @@ export default ({history}) => {
             { history && history.map(( {title , subtitle , description,img} , i) =>            
                 ( i % 2 === 0 ?
                     ( 
-                        <li key={title}>
+                        <li data-aos="fade-right" key={title}>
                             <div className="timeline-image">
                                 <img className="rounded-circle img-fluid" src={img} alt="" />
                             </div>
@@ -29,7 +29,7 @@ export default ({history}) => {
                     ) :
                     (
                         <React.Fragment key={title+i}>
-                        <li key={title} className="timeline-inverted">
+                        <li data-aos="fade-left" key={title} className="timeline-inverted">
                             <div className="timeline-image">
                                 <img className="rounded-circle img-fluid" src={img} alt="" />
                             </div>
@@ -42,7 +42,7 @@ export default ({history}) => {
                             </div>
                         </li>
                         { i === history.length-1 &&
-                            <li key={i} className="timeline-inverted">
+                            <li data-aos="fade-in" key={i} className="timeline-inverted">
                                 <div className="timeline-image">
                                     <h4>Be Part<br />Of My/Our<br />Story!</h4>
                                 </div>

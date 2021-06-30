@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
 
 export default () => {
+    
+    useEffect(() => {
+        AOS.init({duration:2000});
+    }, [])
+
     return(
         <div className="py-5">
             <div className="container">
                 <h2>SOME TECHNOLOGIES I'VE WORKED WITH: </h2>
-                <div className="row justify-content-center">
+                <div data-aos="slide-right" className="row justify-content-center">
                     <div className="tech"> 
                         <a href="#!"><i className="fab fa-html5 fa-5x"></i></a>
                     </div>
@@ -25,7 +33,7 @@ export default () => {
                         <a href="#!"><i className="fab fa-react fa-5x"></i></a>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div data-aos="slide-left" className="row justify-content-center">
                     <div className="tech"> 
                         <a href="#!"><i className="fab fa-java fa-5x"></i></a>
                     </div>
@@ -39,7 +47,7 @@ export default () => {
                         <a href="#!"><i className="fas fa-database fa-5x"></i></a>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div data-aos="slide-in" className="row justify-content-center">
                     <div className="tech"> 
                         <a href="#!"><i className="fab fa-git fa-5x"></i></a>
                     </div>

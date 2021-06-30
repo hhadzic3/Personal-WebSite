@@ -1,4 +1,8 @@
 import React from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 export default function Portfolio({ portfolioLinks }) {
 
@@ -11,7 +15,7 @@ export default function Portfolio({ portfolioLinks }) {
               </div>
               <div className="row">
                   {portfolioLinks && portfolioLinks.map(( {title , caption , img, github, demo} , i) => 
-                      <div className="col-lg-4 col-sm-6 mb-4" key={title}>
+                      <div data-aos="zoom-in" className="col-lg-4 col-sm-6 mb-4" key={title}>
                           <div className="portfolio-item">
                               <a className="portfolio-link" rel="noopener noreferrer" target = "_blank"  href={github} >
                                   <div className="portfolio-hover">
