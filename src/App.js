@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import './App.css';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -21,6 +21,7 @@ import shop from './images/shop.png'
 import uni from './images/uni.jpg'
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { BatteryLoading,LoopCircleLoading } from 'react-loadingg';
 
 function App() {
 
@@ -102,30 +103,51 @@ function App() {
     }
   ]
 
+  const [isLoading, setLoading] = useState(true);
+
+  function fakeRequest() {
+    return new Promise(resolve => setTimeout(() => resolve(), 3000));
+  }
+
+  useEffect(() => {
+    fakeRequest().then(() => {
+        setLoading(!isLoading);
+    });
+  }, []);
+
   return (
-    <HelmetProvider>
-    <div className="App">
-      <Helmet>
-        <title>Harun Hadzic | Software Engineer</title>
-        <meta name="description" content="testing react helmet" />
-        <meta name="keywords" content="react,seo,helmet" />
-        <meta charset="UTF-8" />
-        <link rel="icon" href="favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Software engineer Harun Hadzic.|Frontend and Backend (Full stack) developer." />
-        <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
-        <meta name="author" content="Harun Hadzic" />
-      </Helmet>
-        <Header ></Header>
-        <About history={history}></About>
-        <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
-        <Services></Services>
-        <Tech></Tech>
-        <Contact></Contact>
-        <Footer></Footer>
-        <PortfolioInfo></PortfolioInfo>
-    </div>
-    </HelmetProvider>
+    <>
+    {
+      isLoading ? (
+        <LoopCircleLoading size='large' color='#6f42c1' />
+      ) :
+      (
+        <HelmetProvider>
+        <div className="App">
+          <Helmet>
+            <title>Harun Hadzic | Software Engineer</title>
+            <meta name="description" content="testing react helmet" />
+            <meta name="keywords" content="react,seo,helmet" />
+            <meta charset="UTF-8" />
+            <link rel="icon" href="favicon.ico" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="description" content="Software engineer Harun Hadzic.|Frontend and Backend (Full stack) developer." />
+            <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
+            <meta name="author" content="Harun Hadzic" />
+          </Helmet>
+            <Header ></Header>
+            <About history={history}></About>
+            <Portfolio portfolioLinks={portfolioLinks} ></Portfolio>
+            <Services></Services>
+            <Tech></Tech>
+            <Contact></Contact>
+            <Footer></Footer>
+            <PortfolioInfo></PortfolioInfo>
+        </div>
+        </HelmetProvider>
+      )
+    }
+    </>
   );
 }
 
