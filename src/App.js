@@ -39,7 +39,7 @@ function App() {
       caption: 'React, Sass, Material UI | NodeJS, Express and Sequelize with PostgreSQL',
       img: shop,
       github: 'https://github.com/hhadzic3/online-shop-frontend',
-      demo: 'https://github.com/hhadzic3/online-shop-frontend',
+      demo: 'https://www.youtube.com/watch?v=rxPSM95rJ_Q&list=PLGhcOhF_qFzAl5bU-QSWHUmZRnbf1Rw7q',
       description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
     },
     {
