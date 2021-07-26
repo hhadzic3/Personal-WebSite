@@ -93,7 +93,7 @@ function App() {
       title: '2019',
       subtitle: 'Understanding Real World of Apps',
       img: first,
-      description: 'I learned Angular and React, what makes my better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.'
+      description: 'I learned Angular and React, what makes me better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.'
     },
     {
       title: 'July-October 2020',
