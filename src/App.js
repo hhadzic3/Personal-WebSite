@@ -22,6 +22,8 @@ import uni from './images/uni.jpg'
 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { BoxLoading } from 'react-loadingg';
+import ReactGA from 'react-ga';
+
 
 function App() {
 
@@ -112,15 +114,11 @@ function App() {
           setLoading(false);
         });
     }, 2500);
+    ReactGA.initialize('G-0WFFHPB4N8');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   },[]);
   
-  const injectGA = () => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){window.dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-0WFFHPB4N8');
-  };
+  
  
 
   return (
@@ -136,10 +134,7 @@ function App() {
             <meta name="description" content="Software engineer Harun Hadzic.|Frontend and Backend (Full stack) developer." />
             <meta name="keywords" content="Harun Hadzic, Software engineer, Developer" />
             <meta name="author" content="Harun Hadzic" />
-            <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WFFHPB4N8"></script>
-            <script>
-                {injectGA()}
-            </script>
+           
           </Helmet>
     {
       isLoading ? (
