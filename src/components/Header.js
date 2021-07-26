@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../pdf/Resume - HH.pdf';
+import pdf from '../pdf/Resume07.2021..pdf';
 
 export default function Header() {
   
