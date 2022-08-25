@@ -13,7 +13,7 @@ import uni from '../images/uni.jpg'
 export const portfolioLinks = [
   {
     title: 'Tehnical inspection of vehicle - Web app',
-    caption: 'This app provides an opportunity for easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
+    caption: 'Easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
     img: img1,
     github: 'https://github.com/hhadzic3/WebFrontend',
     demo: 'https://vehicle-inspection-center-ada.herokuapp.com/home',
@@ -29,7 +29,7 @@ export const portfolioLinks = [
   },
   {
     title: 'Best Health Strategies',
-    caption: 'Web app that allows you to easily and intuitively create plans and adapt your diet to the needs of each individual. Technologies: ASP.NET (C#), MySQL | HTML, CSS (Bootstrap)',
+    caption: 'Easily and intuitively create plans and adapt your diet to the needs of each individual. Technologies: ASP.NET (C#), MySQL | HTML, CSS (Bootstrap)',
     img: img3,
     github: 'https://github.com/ooad-2020-2021/Grupa3-BestHealthStrategies',
     demo: 'https://www.youtube.com/watch?v=9zF-25usazY',
@@ -44,7 +44,7 @@ export const portfolioLinks = [
     description: 'Web app that provides easy reservation of classrooms on Faculty.'
   },
   {
-    title: 'Desktop app-Movie library',
+    title: 'Desktop app - Movie library',
     caption: 'JavaFX with Sqlite database',
     img: img4,
     github: 'https://github.com/hhadzic3/rs-projekat',
@@ -66,24 +66,24 @@ export const history = [
     title: '2014-2018',
     subtitle: 'First Gymnasium in Sarajevo',
     img: sa,
-    description: 'I started my first programming steps at the First Gymnasium in Sarajevo. In the beginning it was C and C ++ (which I later studied a lot more in college), after that I started learning HTML, CSS and JavaScript.'
+    description: 'In the beginning, it was C and C ++ (which I later studied a lot more in college). After that, I started learning HTML, CSS, and JavaScript.'
   },
   {
     title: '2018-2022',
-    subtitle: 'University Sarajevo',
+    subtitle: 'University Sarajevo - Faculty of Electrical Engineering',
     img: uni,
-    description: 'I started my stydes on Faculty of Electrical Engineering.I learned some backend-used technologies like Java and NodeJs.Also I learned vary important tools like git + github, linux commands, Command Line, Chrome DevTools and Postman.'
-  },
-  {
-    title: '2019',
-    subtitle: 'Understanding Real World of Apps',
-    img: first,
-    description: 'I learned Angular and React, what makes me better in building Frontend. Also I learned Deployment of apps, connecting Frontend and Backend, git(github) and basics of linux terminal commands.'
+    description: 'Formal education gave me knowlage of ground concepts of Computer Scinece. Also I learned some backend-used technologies like Java and NodeJs. In evry-day work I used important tools like git + github, Command Line, Chrome DevTools and Postman. Beside that I learned Angular and React, what made me better in building Frontend. I had oppertunity to work with Deployment of apps and connecting Frontend with Backend.'
   },
   {
     title: 'July-October 2020',
-    subtitle: 'First Internship',
+    subtitle: 'First Internship - Real World of Apps',
     img: atlant,
-    description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
+    description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo "Atlantbh". In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dev day” workshop whith Scrum Master position within the team.'
+  },
+  {
+    title: 'March 2022 - current',
+    subtitle: 'Full Stack Developer as full time job - LANACO',
+    img: first,
+    description: 'LANACO company gave me oppertunity to work on different typs of technologies and different type of projects. Manely stack that I use is NodeJS & React (MERN).'
   }
 ]
