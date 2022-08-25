@@ -9,7 +9,7 @@ export default () => {
         <section className="page-section" id="services">
             <div className="container">
                 <div className="text-center">
-                    <h2 className="section-heading text-uppercase">Services</h2>
+                    <h2 className="section-heading text-uppercase">Skills</h2>
                     <h3 className="section-subheading text-muted">I'm a software developer with a passion for design. I am currently a third year student at Faculty of
 Electrical Engeniring pursuing a degree in computer science. I aspire toward a career that will allow me to pursue
 my creativity through crafting nice software with best frontend and backend as possible.</h3>
