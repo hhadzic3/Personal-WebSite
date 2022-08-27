@@ -51,8 +51,6 @@ export default ({history}) => {
                         </React.Fragment>
                     )
                 )
-                        
-                  
             )}
             </ul>
         </div>

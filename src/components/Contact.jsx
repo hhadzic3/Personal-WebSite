@@ -8,9 +8,7 @@ export default () => {
                     <h2 className="section-heading text-uppercase">Let's get in touch!</h2>
                 </div>
                 <form name="contact" method="post" id="contactForm">
-
-                <input type="hidden" name="form-name" value="contact" />
-                    
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="row align-items-stretch mb-5">
                         <div className="col-md-6">
                             <div className="form-group">
@@ -29,7 +27,6 @@ export default () => {
                     <div className="text-center">
                         <button className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
                     </div>
-                    
                 </form>
             </div>
     </section>
