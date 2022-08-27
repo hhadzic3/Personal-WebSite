@@ -1,17 +1,19 @@
 import React from 'react'
 import AOS from 'aos';
+import { Element } from "react-scroll";
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
 export default () => {
     return(
-        <section className="page-section" id="services">
+        <Element name='services'>
+        <section className="page-section">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Skills</h2>
-                    <h3 className="section-subheading text-muted">I'm a software developer with a passion for design. I am currently a third year student at Faculty of
-Electrical Engeniring pursuing a degree in computer science. I aspire toward a career that will allow me to pursue
+                    <h3 className="section-subheading text-muted">I am currently Full Stack developer with bacheloer of Computer Science
+at Electrical Engeniring. I aspire toward a career that will allow me to pursue
 my creativity through crafting nice software with best frontend and backend as possible.</h3>
                 </div>
                 <div className="row text-center">
@@ -44,6 +46,7 @@ for Android, Verification and validation of software, Data warehouse, OOP (analy
                 </div>
             </div>
         </section>
+        </Element>
 
     )
 }
