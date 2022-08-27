@@ -7,7 +7,6 @@ import About from './components/About';
 import Services from './components/Services';
 import Header from './components/Header.js';
 import Tech from './components/Tech';
-import PortfolioInfo from './components/PortfolioInfo';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { portfolioLinks, history } from './data/data';
 
@@ -47,7 +46,7 @@ function App() {
             <Tech></Tech>
             <Contact></Contact>
             <Footer></Footer>
-            <PortfolioInfo></PortfolioInfo>
+            
         </div>
       </HelmetProvider>
     </>
