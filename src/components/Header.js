@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import pdf from '../pdf/Harun Hadžić Resume.pdf';
+import pdf from '../pdf/HarunHadzicResume.pdf';
 import { Link } from "react-scroll";
 
 export default function Header() {
