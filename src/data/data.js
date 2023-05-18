@@ -35,7 +35,44 @@ export const portfolioLinks = [
     demo: 'https://www.youtube.com/watch?v=9zF-25usazY',
     description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is a software or web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
   },
+  
+]
+
+export const history = [
   {
+    title: '2014-2018',
+    subtitle: 'First Gymnasium in Sarajevo',
+    img: sa,
+    description: 'In the beginning, it was C and C++ (which I later studied a lot more in college). Also, I started learning HTML, CSS, and JavaScript.'
+  },
+  {
+    title: '2018-2022',
+    subtitle: 'University Sarajevo - Faculty of Electrical Engineering',
+    img: uni,
+    description: 'Ground concepts of Computer Scinece. Also, I learned backend-used technologies like Java Spring Boot and NodeJs. I used important tools like git + github, Command Line, Chrome DevTools and Postman. Learn about Angular and React. Started with CI/CD'
+  },
+  {
+    title: 'July-October 2020',
+    subtitle: 'Full Stack Development Internship - Atlantbh (Sarajevo)',
+    img: atlant,
+    description: 'Exelent oppertunity to work in one of the best software companies in Sarajevo "Atlantbh". I created Online shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As DB I used PostgreSQL.'
+  },
+  {
+    title: 'March 2022 - May 2023',
+    subtitle: 'Full Stack Engineer as full time job - Lanaco (Sarajevo)',
+    img: first,
+    description: 'LANACO company gave me oppertunity to work on different typs of technologies and different type of projects. Manely stack that I use is NodeJS & React (MERN).'
+  },
+  {
+    title: 'May 2023 - current',
+    subtitle: 'Full Stack Engineer - Jumug (Vienna)',
+    img: first,
+    description: 'I specialize in building scooter management platforms, leveraging my expertise in system architecture, documentation, communication between electronics and software, deployment, and software development using Java Spring Boot, React, and React Native.'
+  }
+]
+
+
+/*{
     title: 'Classroom reservation by faculty staff',
     caption: 'NodeJS (sequelize) with MySQL',
     img: img5,
@@ -58,32 +95,4 @@ export const portfolioLinks = [
     github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
     demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
     description: 'Artificial Intelligence.'
-  }
-]
-
-export const history = [
-  {
-    title: '2014-2018',
-    subtitle: 'First Gymnasium in Sarajevo',
-    img: sa,
-    description: 'In the beginning, it was C and C ++ (which I later studied a lot more in college). After that, I started learning HTML, CSS, and JavaScript.'
-  },
-  {
-    title: '2018-2022',
-    subtitle: 'University Sarajevo - Faculty of Electrical Engineering',
-    img: uni,
-    description: 'Formal education gave me knowlage of ground concepts of Computer Scinece. Also I learned some backend-used technologies like Java and NodeJs. In evry-day work I used important tools like git + github, Command Line, Chrome DevTools and Postman. Beside that I learned Angular and React, what made me better in building Frontend. I had oppertunity to work with Deployment of apps and connecting Frontend with Backend.'
-  },
-  {
-    title: 'July-October 2020',
-    subtitle: 'First Internship - Real World of Apps',
-    img: atlant,
-    description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo "Atlantbh". In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dev day” workshop whith Scrum Master position within the team.'
-  },
-  {
-    title: 'March 2022 - current',
-    subtitle: 'Full Stack Developer as full time job - LANACO',
-    img: first,
-    description: 'LANACO company gave me oppertunity to work on different typs of technologies and different type of projects. Manely stack that I use is NodeJS & React (MERN).'
-  }
-]
+  }*/

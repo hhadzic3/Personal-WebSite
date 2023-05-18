@@ -12,8 +12,7 @@ export default () => {
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase">Skills</h2>
-                    <h3 className="section-subheading text-muted">I am currently Full Stack developer with bacheloer of Computer Science
-at Electrical Engeniring. I aspire toward a career that will allow me to pursue
+                    <h3 className="section-subheading text-muted">I aspire toward a career that will allow me to pursue
 my creativity through crafting nice software with best frontend and backend as possible.</h3>
                 </div>
                 <div className="row text-center">
