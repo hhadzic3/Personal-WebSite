@@ -1,7 +1,6 @@
 import img1 from '../images/app1.PNG'
 import img2 from '../images/AI1.jpg'
 import img3 from '../images/app33.jpg'
-import img4 from '../images/app4.png'
 import img5 from '../images/app5.PNG'
 
 import atlant from '../images/atlant.png'
@@ -35,7 +34,30 @@ export const portfolioLinks = [
     demo: 'https://www.youtube.com/watch?v=9zF-25usazY',
     description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is a software or web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
   },
-  
+  {
+    title: 'Vehicle management, renting,and servicing app',
+    caption: 'Technologies used: Java (Spring Boot), React& React Native',
+    img: first,
+    github: '',
+    demo: '',
+    description: 'Working in Java (Spring Boot), React, and React Native, with a focuson  creating  innovative  solutions  for  vehicle  management, renting, and servicing.'
+  },
+  {
+    title: 'Artificial Intelligence',
+    caption: 'Introduction projects of Artificial intelligence (Neural networks and Expert systems)',
+    img: img2,
+    github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
+    demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
+    description: 'Artificial Intelligence.'
+  },
+  {
+    title: 'Classroom reservation by faculty staff',
+    caption: 'NodeJS (sequelize) with MySQL',
+    img: img5,
+    github: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
+    demo: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
+    description: 'Web app that provides easy reservation of classrooms on Faculty.'
+  }
 ]
 
 export const history = [
@@ -70,29 +92,3 @@ export const history = [
     description: 'I specialize in building scooter management platforms, leveraging my expertise in system architecture, documentation, communication between electronics and software, deployment, and software development using Java Spring Boot, React, and React Native.'
   }
 ]
-
-
-/*{
-    title: 'Classroom reservation by faculty staff',
-    caption: 'NodeJS (sequelize) with MySQL',
-    img: img5,
-    github: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
-    demo: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
-    description: 'Web app that provides easy reservation of classrooms on Faculty.'
-  },
-  {
-    title: 'Desktop app - Movie library',
-    caption: 'JavaFX with Sqlite database',
-    img: img4,
-    github: 'https://github.com/hhadzic3/rs-projekat',
-    demo: 'https://github.com/hhadzic3/rs-projekat',
-    description: 'Desktop app that can be used in traditional video library.'
-  },
-  {
-    title: 'Artificial Intelligence',
-    caption: 'Introduction projects of Artificial intelligence (Neural networks and Expert systems)',
-    img: img2,
-    github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
-    demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
-    description: 'Artificial Intelligence.'
-  }*/
