@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({history}) => {
+const About =  ({history}) => {
     return(
         <section className="page-section" id="about">
         <div className="container">
@@ -59,3 +59,5 @@ export default ({history}) => {
     </section>
     )
 }
+
+export default About;

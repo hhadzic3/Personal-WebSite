@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-export default () => {
+const Services = () => {
     return(
         <Element name='services'>
         <section className="page-section">
@@ -49,3 +49,5 @@ for Android, Verification and validation of software, Data warehouse, OOP (analy
 
     )
 }
+
+export default Services;
