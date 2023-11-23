@@ -13,20 +13,20 @@ import jumugScooter from '../images/jumug-scooter.webp'
 
 export const portfolioLinks = [
   {
-    title: 'Tehnical inspection of vehicle - Web app',
-    caption: 'Easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
+    title: 'Technical Inspection of Vehicle - Web App',
+    caption: 'Simplifying the business of managers and mechanics from vehicle inspection companies. Technologies: NodeJS, MySQL, and Angular',
     img: img1,
     github: 'https://github.com/hhadzic3/WebFrontend',
     demo: '',
-    description: 'This app provides opportunity for managers and mechanic of vehicle inspection company Ada to make their bussines easier. Also customers can see basic info about Ada and make reservation of technical review by calling or sending email.'
+    description: 'This app provides an opportunity for managers and mechanics of vehicle inspection company Ada to make their business easier. Also, customers can see basic info about Ada and make a reservation for technical review by calling or sending an email.'
   },
   {
-    title: 'Online shop - Web app',
-    caption: 'React, Sass, Material UI | NodeJS, Express and Sequelize with PostgreSQL',
+    title: 'Online Shop - Web App',
+    caption: 'React, Sass, Material UI | NodeJS, Express, and Sequelize with PostgreSQL',
     img: shop,
     github: 'https://github.com/hhadzic3/online-shop-frontend',
     demo: 'https://www.youtube.com/watch?v=rxPSM95rJ_Q&list=PLGhcOhF_qFzAl5bU-QSWHUmZRnbf1Rw7q',
-    description: 'I had exelent oppertunity to work in one of the best software companies in Sarajevo Atlantbh.In Softver engineer Internship I made Online shop app using technologies like React, Sass, Material UI, on frontend and NodeJS, Express and Sequelize on backend. As DB I use PostgreSQL. Also, I participated in “Dew day” workshop whith Scrum Master position within the team.'
+    description: 'I had an excellent opportunity to work in one of the best software companies in Sarajevo, Atlantbh. In Software Engineer Internship, I made an Online Shop app using technologies like React, Sass, Material UI on the frontend and NodeJS, Express, and Sequelize on the backend. As a DB, I use PostgreSQL. Also, I participated in the “Dew day” workshop with the Scrum Master position within the team.'
   },
   {
     title: 'Best Health Strategies',
@@ -34,15 +34,15 @@ export const portfolioLinks = [
     img: img3,
     github: 'https://github.com/ooad-2020-2021/Grupa3-BestHealthStrategies',
     demo: 'https://www.youtube.com/watch?v=9zF-25usazY',
-    description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is a software or web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
+    description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition, or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is software or a web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
   },
   {
-    title: 'Vehicle management, renting, and servicing app',
-    caption: 'Technologies used: Java (Spring Boot), React& React Native',
+    title: 'Vehicle Management, Renting, and Servicing App',
+    caption: 'Technologies used: Java (Spring Boot), React & React Native',
     img: jumugScooter,
     github: '',
     demo: '',
-    description: 'Working in Java (Spring Boot), React, and React Native, with a focuson  creating  innovative  solutions  for  vehicle  management, renting, and servicing.'
+    description: 'Working in Java (Spring Boot), React, and React Native, with a focus on creating innovative solutions for vehicle management, renting, and servicing.'
   },
   {
     title: 'Artificial Intelligence',
@@ -53,7 +53,7 @@ export const portfolioLinks = [
     description: 'Artificial Intelligence.'
   },
   {
-    title: 'Classroom reservation by faculty staff',
+    title: 'Classroom Reservation by Faculty Staff',
     caption: 'NodeJS (sequelize) with MySQL',
     img: img5,
     github: 'https://bitbucket.org/hhadzic3/wt1920st/src/master/',
@@ -73,22 +73,22 @@ export const history = [
     title: '2018-2022',
     subtitle: 'University Sarajevo - Faculty of Electrical Engineering',
     img: uni,
-    description: 'Ground concepts of Computer Scinece. Also, I learned backend-used technologies like Java Spring Boot and NodeJs. I used important tools like git + github, Command Line, Chrome DevTools and Postman. Learn about Angular and React. Started with CI/CD'
+    description: 'Ground concepts of Computer Science. Also, I learned backend-used technologies like Java Spring Boot and NodeJs. I used important tools like Git + GitHub, Command Line, Chrome DevTools, and Postman. Learn about Angular and React. Started with CI/CD.'
   },
   {
     title: 'July-October 2020',
-    subtitle: 'Software engineer Internship - Atlantbh (Sarajevo)',
+    subtitle: 'Software Engineer Internship - Atlantbh (Sarajevo)',
     img: atlant,
-    description: 'Exelent oppertunity to work in one of the best software companies in Sarajevo "Atlantbh". I created Online shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As DB I used PostgreSQL.'
+    description: 'Excellent opportunity to work in one of the best software companies in Sarajevo, "Atlantbh". I created an Online Shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As a DB, I used PostgreSQL.'
   },
   {
     title: 'October 2021 - May 2023',
     subtitle: 'Full Stack Engineer - Lanaco',
     img: lanaco,
-    description: 'Oppertunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as full time Software engineer. Manely stack that I use is NodeJS & React (MERN).'
+    description: 'Opportunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as a full-time Software engineer. Mainly stack that I use is NodeJS & React (MERN).'
   },
   {
-    title: 'May 2023 - current',
+    title: 'May 2023 - Current',
     subtitle: 'Full Stack Engineer - Jumug (Vienna)',
     img: jumug,
     description: 'I specialize in building scooter management platforms, leveraging my expertise in system architecture, documentation, communication between electronics and software, deployment, and software development using Java Spring Boot, React, and React Native.'
