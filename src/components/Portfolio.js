@@ -11,7 +11,7 @@ export default function Portfolio({ portfolioLinks }) {
           <div className="container">
               <div className="text-center">
                   <h2 className="section-heading text-uppercase">MY PROJECTS</h2>
-                  <h3 className="section-subheading text-muted">I've been doing development for just about 4 years now, and I'm always eager to learn more in this fast paced industry.</h3>
+                  <h3 className="section-subheading text-muted">I've been doing development for just about 6 years now, and I'm always eager to learn more in this fast paced industry.</h3>
               </div>
               <div className="row">
                   {portfolioLinks && portfolioLinks.map(( {title , caption , img, github, demo} , i) => 

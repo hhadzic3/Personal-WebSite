@@ -73,19 +73,19 @@ export const history = [
     title: '2018-2022',
     subtitle: 'University Sarajevo - Faculty of Electrical Engineering',
     img: uni,
-    description: 'Ground concepts of Computer Science. Also, I learned backend-used technologies like Java Spring Boot and NodeJs. I used important tools like Git + GitHub, Command Line, Chrome DevTools, and Postman. Learn about Angular and React. Started with CI/CD.'
+    description: 'Ground concepts of Computer Science. Also, I learned about backend-used technologies like Java Spring Boot and NodeJs. I used important tools like Git + GitHub, Command Line, Chrome DevTools, and Postman. Gained in-depth knowladge about Angular and React. Started with CI/CD.'
   },
   {
     title: 'July-October 2020',
     subtitle: 'Software Engineer Internship - Atlantbh (Sarajevo)',
     img: atlant,
-    description: 'Excellent opportunity to work in one of the best software companies in Sarajevo, "Atlantbh". I created an Online Shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As a DB, I used PostgreSQL.'
+    description: 'Excellent opportunity to work in one of the best software companies in Sarajevo, "Atlantbh". During this internship, I created an Online Shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As a DB, I used PostgreSQL.'
   },
   {
     title: 'October 2021 - May 2023',
     subtitle: 'Full Stack Engineer - Lanaco',
     img: lanaco,
-    description: 'Opportunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as a full-time Software engineer. Mainly stack that I use is NodeJS & React (MERN).'
+    description: 'Opportunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as a full-time Software engineer. Main stack used was NodeJS & React (MERN).'
   },
   {
     title: 'May 2023 - Current',
