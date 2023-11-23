@@ -4,7 +4,6 @@ import img3 from '../images/app33.jpg'
 import img5 from '../images/app5.PNG'
 
 import atlant from '../images/atlant.png'
-import first from '../images/first.png'
 import sa from '../images/sa.png'
 import shop from '../images/shop.png'
 import uni from '../images/uni.jpg'
