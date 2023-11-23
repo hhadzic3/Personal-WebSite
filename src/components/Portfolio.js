@@ -28,14 +28,20 @@ export default function Portfolio({ portfolioLinks }) {
                               <div className="portfolio-caption">
                                     <div className="portfolio-caption-heading">{ title } </div>
                                     <div className="portfolio-caption-subheading text-muted"> {caption} </div>
-                                    <a href={github} rel="noopener noreferrer" target = "_blank">
-                                        <button className="btn btn-secondary" data-dismiss="modal" type="button">  <i className="fab fa-github"></i> View Code</button>
-                                    </a>
-                                    { github !== demo ? (
+                                   
+                                    {
+                                        github !== '' ? (
+                                        <a href={github} rel="noopener noreferrer" target = "_blank">
+                                            <button className="btn btn-secondary" data-dismiss="modal" type="button">  <i className="fab fa-github"></i> View Code</button>
+                                        </a>
+                                        ) : null
+                                    }
+                                    
+                                    { demo !== '' ? (
                                         <a href={demo} rel="noopener noreferrer" target = "_blank">
                                             <button className="btn btn-primary" data-dismiss="modal" type="button">  <i className="fas fa-external-link-alt"></i> View Demo</button>
                                         </a>
-                                    ) : (<p> </p>)
+                                    ) : null
                                     }
                               </div>
                           </div>

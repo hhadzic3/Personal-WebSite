@@ -8,6 +8,9 @@ import first from '../images/first.png'
 import sa from '../images/sa.png'
 import shop from '../images/shop.png'
 import uni from '../images/uni.jpg'
+import lanaco from '../images/lanaco.jpeg'
+import jumug from '../images/jumug.jpeg'
+import jumugScooter from '../images/jumug-scooter.webp'
 
 export const portfolioLinks = [
   {
@@ -15,7 +18,7 @@ export const portfolioLinks = [
     caption: 'Easier business of managers and mechanics from vehicle inspection companie. Technologies: NodeJS, MySQL and Angular',
     img: img1,
     github: 'https://github.com/hhadzic3/WebFrontend',
-    demo: 'https://vehicle-inspection-center-ada.herokuapp.com/home',
+    demo: '',
     description: 'This app provides opportunity for managers and mechanic of vehicle inspection company Ada to make their bussines easier. Also customers can see basic info about Ada and make reservation of technical review by calling or sending email.'
   },
   {
@@ -35,9 +38,9 @@ export const portfolioLinks = [
     description: 'Whether you want to lose weight, have a daily diet plan tailored to your medical condition or create a diet tailored to your training - BHS offers a solution for all of you. BestHealthStrategies is a software or web application that allows you to easily and intuitively plan and adapt your diet to the needs of each individual.'
   },
   {
-    title: 'Vehicle management, renting,and servicing app',
+    title: 'Vehicle management, renting, and servicing app',
     caption: 'Technologies used: Java (Spring Boot), React& React Native',
-    img: first,
+    img: jumugScooter,
     github: '',
     demo: '',
     description: 'Working in Java (Spring Boot), React, and React Native, with a focuson  creating  innovative  solutions  for  vehicle  management, renting, and servicing.'
@@ -47,7 +50,7 @@ export const portfolioLinks = [
     caption: 'Introduction projects of Artificial intelligence (Neural networks and Expert systems)',
     img: img2,
     github: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
-    demo: 'https://drive.google.com/drive/folders/19ryhXAEWtJAgKcjbVACeluD2HyGNDhB6?usp=sharing',
+    demo: '',
     description: 'Artificial Intelligence.'
   },
   {
@@ -75,20 +78,20 @@ export const history = [
   },
   {
     title: 'July-October 2020',
-    subtitle: 'Full Stack Development Internship - Atlantbh (Sarajevo)',
+    subtitle: 'Software engineer Internship - Atlantbh (Sarajevo)',
     img: atlant,
     description: 'Exelent oppertunity to work in one of the best software companies in Sarajevo "Atlantbh". I created Online shop app using React, Sass, Material UI, and NodeJS, Express, Sequelize. As DB I used PostgreSQL.'
   },
   {
-    title: 'March 2022 - May 2023',
-    subtitle: 'Full Stack Engineer as full time job - Lanaco (Sarajevo)',
-    img: first,
-    description: 'LANACO company gave me oppertunity to work on different typs of technologies and different type of projects. Manely stack that I use is NodeJS & React (MERN).'
+    title: 'October 2021 - May 2023',
+    subtitle: 'Full Stack Engineer - Lanaco',
+    img: lanaco,
+    description: 'Oppertunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as full time Software engineer. Manely stack that I use is NodeJS & React (MERN).'
   },
   {
     title: 'May 2023 - current',
     subtitle: 'Full Stack Engineer - Jumug (Vienna)',
-    img: first,
+    img: jumug,
     description: 'I specialize in building scooter management platforms, leveraging my expertise in system architecture, documentation, communication between electronics and software, deployment, and software development using Java Spring Boot, React, and React Native.'
   }
 ]
