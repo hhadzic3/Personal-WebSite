@@ -10,6 +10,7 @@ import uni from '../images/uni.jpg'
 import lanaco from '../images/lanaco.jpeg'
 import jumug from '../images/jumug.jpeg'
 import jumugScooter from '../images/jumug-scooter.webp'
+import pwc from '../images/pwc.png'
 
 export const portfolioLinks = [
   {
@@ -88,9 +89,15 @@ export const history = [
     description: 'Opportunity to work on different types of technologies and different projects. First as Intern/Scholarship holder and later on as a full-time Software engineer. Main stack used was NodeJS & React (MERN).'
   },
   {
-    title: 'May 2023 - Current',
+    title: 'May 2023 - October 2024',
     subtitle: 'Full Stack Engineer - Jumug (Vienna)',
     img: jumug,
     description: 'I specialize in building scooter management platforms, leveraging my expertise in system architecture, documentation, communication between electronics and software, deployment, and software development using Java Spring Boot, React, and React Native.'
+  },
+  {
+    title: 'November 2024 - current',
+    subtitle: 'PwC Austria',
+    img: pwc,
+    description: 'Software development using Java Spring Boot and React.'
   }
 ]
